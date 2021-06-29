@@ -51,8 +51,6 @@ const results = [
 const resultURL = "https://www.fun-stuff-to-do.com/good-pranks.html";
 
 app.get("/", (req, res) => res.send(results));
-app.get("/results", (req, res) => res.send(results));
-app.get("/url", (req, res) => res.send(resultURL));
 
 app.listen(port, () =>
   console.log(`Express departing now from http://localhost:${port}!`)

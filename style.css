@@ -8,10 +8,13 @@
 section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.newsection {
+    display: inline;
 }
 
 main {
@@ -21,6 +24,12 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.newmain {
+    flex-direction: row;
+    width: 80%;
+    margin: 0;
 }
 
 .searchBox {
@@ -60,4 +69,22 @@ main {
 }
 .searchBtn:hover {
     border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+}
+
+.myheadhurts {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
