@@ -7,9 +7,7 @@ let main = document.querySelector("main");
 let section = document.querySelector("section");
 let img = document.querySelector(".google");
 let searchBox = document.querySelector(".searchBox");
-let searchBtn = document.querySelector(".searchBtn")
-
-styling()
+let searchBtn = document.querySelector(".searchBtn");
 
 async function results() {
     let search = await fetch("http://localhost:3000");
@@ -34,8 +32,9 @@ function addContent(newsearch) {
         img.style.height = "auto";
         img.style.marginRight = "50px";
         searchBox.style.marginTop = "0";
-        searchBox.style.width = "60%"
-        searchBtn.style.margin = "0 0 0 30px";
+        searchBox.style.width = "60%";
+        searchBtn.remove()
+        document.querySelector("button").style.margin = "0 30px";
     })
 }
 
