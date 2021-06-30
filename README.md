@@ -9,6 +9,7 @@ Installation:
     "dev": "nodemon app.js"
   },)
   
+  
 Usage
   In the server directory, run nodemon app.js to start the server.
   Navigate to the client directory and open the index.html using http server or live server extension
