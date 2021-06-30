@@ -8,7 +8,7 @@ Installation:
     "start": "node app.js",
     "dev": "nodemon app.js"
   },)
-  
+  Move onto usage.
   
 Usage
   In the server directory, run nodemon app.js to start the server.
